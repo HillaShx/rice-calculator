@@ -1,5 +1,3 @@
-console.log("hello")
-
 function calculateScore(){
     const reach = document.getElementById("reach").value;
     const impact = document.getElementById("impact").value;
@@ -9,5 +7,5 @@ function calculateScore(){
 }
 
 function displayScore(score){
-    console.log(score);
+    document.getElementById("scoreDisplay").innerHTML = score;
 }
