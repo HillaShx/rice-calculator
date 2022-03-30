@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calc.js"></script> 
+    <title>RICE Calculator</title>
+  </head>
+  <body>
+    R <input id="reach" type="number" value="1000" onchange="calculateScore()">
+    I <input id="impact" type="range" min="0.25" max="3" step="0.25" onchange="calculateScore()">
+    C <input id="confidence" type="range" min="0" max="100" step="1" onchange="calculateScore()">
+    E <input id="effort" type="range" min="0" max="1000" step="0.5" onchange="calculateScore()">
+  </body>
+</html>
